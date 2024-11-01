@@ -1,0 +1,19 @@
+{
+  "name": "2023202062_1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jangsh7/kw62-num-nest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jangsh7/kw62-num-nest/issues"
+  },
+  "homepage": "https://github.com/jangsh7/kw62-num-nest#readme",
+  "description": ""
+}
