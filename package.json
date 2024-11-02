@@ -6,7 +6,7 @@
     "test": "jest"
   },
   "bin": {
-    "numnest": "./main.js"
+    "numnest": "main.js"
   },
   "repository": {
     "type": "git",
