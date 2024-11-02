@@ -4,20 +4,20 @@ function avg(numbers) {
 }
 
 function prime(num) {
-    if (n <= 1) return false;
-    for (let i = 2; i <= Math.sqrt(n); i++) {
-        if (n % i === 0)
+    if (num <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0)
             return false;
     }
     return true;
 }
 
 function factorial(num) {
-    if (n < 0) return undefined; // 음수x
-    if (n === 0 || n === 1)
+    if (num < 0) return undefined; // 음수x
+    if (num === 0 || num === 1)
         return 1; // 0!, 1!
     let f = 1;
-    for (let i = 2; i <= n; i++) {
+    for (let i = 2; i <= num; i++) {
         f *= i;
     }
     return f;
