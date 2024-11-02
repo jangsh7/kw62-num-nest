@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error:"
+    "test": "jest"
+  },
+  "bin": {
+    "numnest": "./main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
     "url": "https://github.com/jangsh7/kw62-num-nest/issues"
   },
   "homepage": "https://github.com/jangsh7/kw62-num-nest#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
